@@ -14,6 +14,10 @@ import HowerCounter from './components/HowerCounter';
 import Welcom from './components/Welcom';
 import ErrorBoundry from './components/ErrorBoundry';
 import ToDoList from './components/ToDoList';
+import UseeffectExample from './components/UseeffectExample';
+import Useeffectexample2 from './components/Useeffectexample2';
+import MouseComp from './components/MouseComp';
+import UseReduserExample from './components/UseReduserExample';
 
 function App() {
   return (
@@ -32,8 +36,11 @@ function App() {
       <ErrorBoundry>
       <Welcom name='Madhu'/>
       </ErrorBoundry> */}
-      <ToDoList/>
-     
+      {/* <ToDoList/> */}
+      {/* <UseeffectExample/> */}
+      {/* <Useeffectexample2/>      */}
+      {/* <MouseComp/> */}
+      <UseReduserExample/>
 
     </div>
   );
